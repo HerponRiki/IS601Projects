@@ -1,5 +1,4 @@
 *.sw*
 .coverage
-.pytest_cashe
+.pytest_cache
 *__pycache__
-
