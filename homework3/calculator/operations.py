@@ -1,15 +1,15 @@
 from decimal import Decimal
 # Define the functions with type hints
-def add(_a: Decimal, _b: Decimal) -> Decimal:
-    return _a + _b
+def add(a: Decimal, b: Decimal) -> Decimal:
+    return a + b
 
-def subtract(_a: Decimal, _b: Decimal) -> Decimal:
-    return _a - _b
+def subtract(a: Decimal, b: Decimal) -> Decimal:
+    return a - b
 
-def multiply(_a: Decimal, _b: Decimal) -> Decimal:
-    return _a * _b
+def multiply(a: Decimal, b: Decimal) -> Decimal:
+    return a * b
 
-def divide(_a: Decimal, _b: Decimal) -> Decimal:
-    if _b == 0:
+def divide(a: Decimal, b: Decimal) -> Decimal:
+    if b == 0:
         raise ValueError("Cannot divide by zero")
-    return _a / _b
+    return a / b
